@@ -48,8 +48,8 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
-              "serviceWorker" : true,
-              "ngswConfigPath" : "src/ngsw-config.json",
+              "serviceWorker": true,
+              "ngswConfigPath": "src/ngsw-config.json",
               "budgets": [
                 {
                   "type": "initial",
@@ -125,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "App"
+    }
+  },
+  "defaultProject": "App",
+  "cli": {
+    "analytics": "cd5f7247-85d5-4ca7-8174-6561919f1b36"
+  }
 }
