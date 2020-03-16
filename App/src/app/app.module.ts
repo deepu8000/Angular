@@ -16,7 +16,8 @@ import { from } from 'rxjs';
     AppRoutingModule,
     ServiceWorkerModule.register('/ngsw-worker.js',{
       enabled : true
-    })
+    }),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
